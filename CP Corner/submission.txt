@@ -1,0 +1,36 @@
+HackerRank profile link : https://www.hackerrank.com/U4ELC21046?hr_r=1
+
+Description of my approach to the problem:
+
+1. THREE KALAS : 
+        here i am printing "Yes", if "X" is equal to "A" or "B" or "C".
+        else print "No"
+
+2. GOOD DAY? :
+        count the number of "1's" and number of "0's", if number of 1's is greater than number of 0's then print "YES", else print "NO".
+
+3. A MARATHON : 
+        first find the value of D*A, it is equal to distance traveled by Ram. 
+        Depending on the range in which this total distance lies, the output is printed
+
+4. THE BEST BOW AND ARROW :
+        if a, b == a1, b1 interchangeably, then print "1"
+        elif a, b == a2, b2 interchangably, then print "2"
+        else print "0"
+
+5. LAKSHMAN AND HIS STICKS:
+        if length of stick is even, then irrespect of if the desired length is even or odd, it can be splitted paritly.
+        because if desired length is odd, then the total length can be splitted as desired length part and other part as parts of length equal to 1.
+        and if desired lenght is even, then the total length can be splitted as desired lenght part and other part as parths of lenght equal to 2.
+
+        if length of stick is odd, then if desired length is odd, it can be splitted but if its even it can't be splitted.
+
+        so we print "NO", if N and X are odd and even respectively, 
+        else, we print "YES"
+
+6. MATA SITA'S DOLLS:
+    create a dictonary with keys as doll number and corresponding values as number of corresponding doll
+    if a 'value' in above dictonary is odd then that corresponding 'key' doll is missing
+     
+7.  WAY TO ASHRAM:
+    if the coordinates(x and y) of destination are multiple of value(K), it is possible to reach Ashram, so print "YES", else print "NO" 
